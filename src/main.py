@@ -4,7 +4,6 @@ print('Python: {}'.format(sys.version))
 # pandas
 import pandas as pd
 print('pandas: {}'.format(pd.__version__))
-import upgini
 
 from os.path import exists
 from upgini import FeaturesEnricher, SearchKey
